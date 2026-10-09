@@ -1,27 +1,39 @@
-# NomWaDatosempleadoFe
+# Front-End de Gestión de Colaboradores (`nom-wa-datosempleado-fe`)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.21.
+Aplicacion desarrollada para listar los colaboradores almacenados en la base de datos. y calcular los distintos niveles de riesgo que pueden tener segun su edad.
 
-## Development server
+--
+## Tecnologias usadas
+ 
+- **Angular**: `^18.2.0`
+- **TypeScript**: `~5.5.2`
+- **Bootstrap**: `^5.3.3` 
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+--
+## Requisitos Previos del entorno
 
-## Code scaffolding
+- [Node.js](v18.x)
+- [npm] (Incluido con Node.js)
+- [Angular CLI] (v18.x)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+--
+##Instalacion
+. **Clona el repositorio:**
+   #desde la terminal 
+   git clone [https://github.com/joshuamich/nom-wa-datosempleado-fe.git](https://github.com/joshuamich/nom-wa-datosempleado-fe.git)
+   cd nom-wa-datosempleado-fe
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+    npm install
 
-## Running unit tests
+    npm start
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
+    accede a la aplicacion:
+    accede a la ruta http://localhost:4200/colaboradores desde un navegador
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+    Importante Nota: El servidor backend debe estar corriendo en la ruta y puerto
+    http://localhost:3000
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
